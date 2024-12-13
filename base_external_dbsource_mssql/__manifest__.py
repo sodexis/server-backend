@@ -11,10 +11,12 @@
     "license": "LGPL-3",
     "depends": ["base_external_dbsource_sqlite"],
     "external_dependencies": {
-            "python": [
-                "pymssql<=2.2.5 ; python_version <= '3.10'", 
-                "pymssql<=2.2.8 ; python_version > '3.10'"
-                "sqlalchemy"]},
+        "python": [
+            "pymssql<=2.2.5 ; python_version <= '3.10'",
+            "pymssql<=2.2.8 ; python_version > '3.10'",
+            "sqlalchemy",
+        ]
+    },
     "demo": ["demo/base_external_dbsource.xml"],
     "installable": True,
 }
