@@ -10,8 +10,8 @@
     "website": "https://github.com/OCA/server-backend",
     "depends": [
         "base",
-        "base_install_request",  # weird module, we need to survive with it
         "mail",
+        "calendar",
     ],
     "maintainers": ["FranzPoize", "bealdav"],
     "demo": [
@@ -23,7 +23,6 @@
     ],
     "data": [
         "data/res_groups.xml",
-        "data/ir_ui_menu.xml",
         "security/ir.model.access.csv",
     ],
     "installable": True,
